@@ -34,6 +34,7 @@
                 margin-left: 50px;
                 margin-bottom: 55px;
                 color: #ED4C5C;
+                border-radius: 6px;
             }
             
             .back img {
@@ -57,7 +58,7 @@
             }
             
             #logo span {
-                position: absolute;
+              /* position: absolute; */
                 width: 152px;
                 height: 22px;
                 left: 87px;
@@ -69,7 +70,7 @@
                 display: flex;
                 align-items: center;
                 text-transform: uppercase;
-                margin-left: 2px;
+               padding-left: 35px;
                 color: #FFFFFF;
             }
             
@@ -86,72 +87,70 @@
                 text-transform: uppercase;
                 color: #FFFFFF;
             }
-            /* .main1{
+            
     
 
-} */
-            /* .p1{
-    position: relative;
-    float: left;
-} */
-            
+     
             .p1 img {
+              
                 width: 350px;
                 height: 248.86px;
                 border-radius: 8px;
-                margin-left: 50px;
+                padding-left: 50px;
+                padding-top: 87px;
+                top: 790px;
             }
             
             .p1 a {
+               
                 text-align: center;
                 line-height: 40px;
-                position: absolute;
                 width: 350px;
                 height: 40px;
-                top: 999px;
                 left: 50px;
+                top: 1244px;
                 background-color: white;
                 border-radius: 8px;
+                color: #ED4C5C;
             }
             
-            .main2 {
-                background: #f4f4f5;
-            }
             
             .p2 img {
-                position: absolute;
+               
                 width: 350px;
                 height: 248.86px;
-                top: 790px;
-                margin-left: 430px;
+                left: 430px;
+                top: 1002px;
+                padding-left: 100px;
+                padding-top: 87px;
+                
             }
-            
             .p2 a {
                 text-align: center;
                 line-height: 40px;
-                position: absolute;
                 width: 350px;
                 height: 40px;
-                top: 1000px;
+                top: 500px;
                 left: 0px;
                 background-color: white;
                 border-radius: 8px;
                 margin-left: 430px;
             }
             
-            .p3 {
-                position: absolute;
+            .p3 img{
+              
                 width: 350px;
                 height: 248.86px;
                 left: 810px;
                 top: 790px;
                 border-radius: 8px;
+                margin-top: 87px;
             }
             
             .p3 a {
                 text-align: center;
                 line-height: 40px;
-                position: absolute;
+              
                 width: 350px;
                 height: 40px;
                 margin-top: 210px;
@@ -160,3 +159,43 @@
                 border-radius: 8px;
                
             }
+            .main1 h1 {
+                 padding-top: 56px;
+                 padding-left: 50px;
+                width: 445px;
+                height: 89px;
+                font-style: normal;
+                font-weight: 600;
+                font-size: 36px;
+                line-height: 43px;
+                
+                color: #000000;
+                
+              
+            }
+            .main1 p {
+                margin-left: 50px;
+                margin-top: 30px;
+                width: 445px;
+                font-family: Lato;
+                font-style: normal;
+                font-weight: normal;
+                 font-size: 14px;
+                line-height: 140%;
+                text-align: justify;
+
+                color: #000000;
+            }
+            
+            .main1 span a{
+                font-family: Lato;
+                font-style: normal;
+                font-weight: normal;
+                font-size: 14px;
+
+                color: #ED4C5C;
+                padding-left: 50px;
+              
+            }
+
+           
