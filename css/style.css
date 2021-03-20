@@ -12,7 +12,6 @@
             aside {
                 display: block;
             }
-            
             header {
                 width: 100%;
             }
@@ -50,29 +49,30 @@
             }
             
             #logo {
-                display: block;
-                width: 152px;
-                height: 22px;
+                display: inline-block;
+                width: 24.65px;
+                height: 17.4px;
                 background-image: url("../images/vector.png");
                 background-repeat: no-repeat;
                 margin-left: 51.45px;
+                background-size: contain;
+             
+                
                
             }
             
             #logo span {
-              
+                display: inline-block;
                 width: 152px;
                 height: 22px;
-                left: 87px;
-                top: 59px;
                 font-style: normal;
                 font-weight: bold;
-                font-size: 15px;
+                font-size: 18px;
                 line-height: 22px;
-                display: flex;
                 align-items: center;
                 text-transform: uppercase;
-               padding-left: 35px;
+                 padding-left:35px;
+               
                 color: #FFFFFF;
             }
             
@@ -122,13 +122,13 @@
             }
             
             .main1 span a{
-                font-family: Lato;
                 font-style: normal;
                 font-weight: normal;
                 font-size: 14px;
-
                 color: #ED4C5C;
                 padding-left: 50px;
+                width: 71px;
+                height: 26.28px;
               
             }
            
